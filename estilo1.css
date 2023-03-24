@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2? family=Charis+SIL:ital,wght@1,400;1,700&family=Dancing+Script:wght@700&family=Signika+Negative:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primer-color:#ff7613;
+  --text-color:#727171;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: Inter, sans-serif;
+  background-color:lightcoral;
+  color: bisque;
+}
+/*Estilos en títulos*/
+img{
+  width: 100%;
+}
+
+.exp {
+  color:blueviolet ;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: initial;
+}
+.t1 {
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: initial;
+}
+.contacto {
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: initial;
+}
+.título {
+  color:blueviolet;
+font-weight: 700;
+font-size: 2rem;
+text-transform: initial;
+}
+/*contenido*/
+.contenido1 {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  padding: 5rem;
+  background: #070707;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+@media only screen and (max-width: 768px){
+  .contInicio {
+    width: 100px;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
+  }
+}
+.inicio{
+  grid-column: 1/ -1;
+  margin-bottom: 2rem;
+}
+.grupo-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/*1*/
+.contInicio {
+display: flex;
+gap: 2rem;
+}
+.P.Img {
+  max-width: 250px;
+}
+.nombre {
+  color: #c73c19;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3em;
+}
+/*Conocimiento*/
+.habilidades {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  line-height: 2;
+}
+/*experiencia*/
+.experiencia {
+  margin-top: 2rem;
+}
+/*.título {
+  font-size: 1.6rem;
+  font-weight: 700;
+}*/
